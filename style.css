@@ -13,11 +13,12 @@ body{
 .sec1{
     display: grid;
     grid-template-columns: auto 1fr;
-    background-color: rgb(135, 109, 70);
-    color: rgb(87, 15, 15);
+    background-color: rgb(28, 12, 12);
+    color: rgb(193, 160, 84);
     font-weight: bold;
     font-size: 40px;
     padding: 10px;
+    align-items: center;
 }
 
 a{
@@ -37,4 +38,78 @@ button {
 .cafe:hover{
     transform: scale(1.05) translateY(-5px);
     text-shadow: 0px 5px 15px rgba(133, 35, 35, 0.3);
+    background: linear-gradient(135deg, rgb(178, 209, 52), rgb(156, 25, 25));
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.sec1-1 {
+    grid-column: 1;
+}
+
+.sec1-2 {
+    grid-column: 2;
+    justify-self: end;
+
+}
+
+.top-btn{
+    background: linear-gradient(135deg, rgb(167, 40, 40), rgb(79, 28, 28));
+    color: rgb(230, 192, 131);
+    border: 2px solid rgb(87, 15, 15);
+    padding: 10px 20px;
+    font-family: Garamond, "Times New Roman", serif;
+    font-size: 50px;
+    border-radius: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    margin-right: 20px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.top-btn:hover{
+    transform: scale(1.05) translateX(-5px);
+    box-shadow: 0 0 25px rgb(162, 117, 40);
+}
+
+.contact-btn{
+    background: linear-gradient(135deg, rgb(36, 110, 36), rgb(60, 151, 60));
+    color: rgb(230, 192, 131);
+    font-size: 50px;
+    margin-right: 30px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    border-radius: 20px;
+}
+.contact-btn:hover {
+    transform: scale(1.05) translateX(-5px);
+    box-shadow: 0 0 25px rgb(107, 187, 98);
+}
+
+#home{
+    position: relative;
+    width: 100%;
+    min-height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.background-img{
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+.background-img img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
 }
