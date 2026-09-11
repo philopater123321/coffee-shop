@@ -93,7 +93,7 @@ button {
 #home{
     position: relative;
     width: 100%;
-    min-height: 80vh;
+    min-height: 100vh;
     display: flex;
 }
 
@@ -157,4 +157,76 @@ button {
     font-size: 30px;
     text-align: center;
     margin-bottom: 20px;
+}
+
+.contact-container{
+    max-width: 750px;
+    border-radius: 20px;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: rgb(28,12,12);
+    text-align: center;
+    transition: transform 0.3s ease;
+    box-shadow: 0 0 5px white;
+}
+.contact-container:hover{
+    transform: scale(1.005) translateY(-5px);
+    box-shadow: 0 0 10px;
+}
+.contact-container h1{
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+.contact-container p{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.contact-container .contact-btn{
+    margin-bottom: 20px;
+}
+.contact-container button{
+    font-size: 40px;
+    padding: 10px;
+}
+.contact-form{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    gap: 20px;
+    background-color: rgb(95, 20, 20);
+    border-radius: 20px;
+}
+.contact-form label{
+    padding-left: 10px;
+    padding-top: 10px;
+    font-size: 30px;
+}
+.contact-form input, .contact-form textarea{
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid rgb(193, 160, 84);
+    background-color: rgb(236, 226, 153);
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.submit-btn{
+    background: linear-gradient(135deg, rgb(255, 234, 157), rgb(255, 202, 12));
+    border: 1px solid brown;
+    border-radius: 20px;
+    width: 40%;
+    font-family: "Times New Roman";
+    font-weight: bold;
+    color: rgb(89, 18, 18);
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    align-self: center;
+}
+
+.submit-btn:hover{
+    transform: scale(1.05) translateY(-5px);
+    box-shadow: 0 0 25px;
+    color: #333;
 }
