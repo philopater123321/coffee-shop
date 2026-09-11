@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(74, 0, 0);
+    font-family: Garamond, "Times New Roman", serif;
+    color: rgb(230, 192, 131);
+}
+
+.sec1{
+    display: grid;
+    grid-template-columns: auto 1fr;
+    background-color: rgb(135, 109, 70);
+    color: rgb(87, 15, 15);
+    font-weight: bold;
+    font-size: 40px;
+    padding: 10px;
+}
+
+a{
+    text-decoration: none;
+}
+
+button {
+    border: none;
+}
+
+.cafe {
+    transition: transform 0.3s ease;
+    margin-left: 20px;
+    margin-right: 10px;
+}
+
+.cafe:hover{
+    transform: scale(1.05) translateY(-5px);
+    text-shadow: 0px 5px 15px rgba(133, 35, 35, 0.3);
+}
