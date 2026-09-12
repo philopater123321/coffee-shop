@@ -84,6 +84,7 @@ button {
     cursor: pointer;
     transition: transform 0.3s ease;
     border-radius: 20px;
+    font-family: "Times New Roman";
 }
 .contact-btn:hover {
     transform: scale(1.05) translateX(-5px);
