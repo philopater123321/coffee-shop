@@ -230,3 +230,60 @@ button {
     box-shadow: 0 0 25px;
     color: #333;
 }
+
+.menu-container{
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+.menu-container h1{
+    font-size: 70px;
+    color: rgb(230, 192, 131);
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border-bottom: 2px solid rgb(199, 167, 50);
+    padding-bottom: 20px;
+}
+
+.card-part{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.card{
+    background-color: rgb(28, 12, 12);
+    border: 2px solid rgb(193, 160, 84);
+    border-radius: 20px;
+    width: 320px;
+    overflow: hidden;
+    box-shadow: 0 0 15px rgb(252, 229, 28);
+    transition: 0.3s ease;
+}
+
+.card:hover{
+    transform: scale(1.005) translateY(-5px);
+}
+.card p {
+    padding: 8px;
+}
+
+.card h3{
+    text-align: center;
+    padding: 8px;
+}
+.card-img {
+    width: 100%;
+    height: 220px;
+    overflow: hidden;
+}
+
+.card-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
