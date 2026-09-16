@@ -32,6 +32,7 @@ button {
 .cafe {
     transition: transform 0.3s ease;
     margin-left: 20px;
+    font-family: 'Trirong', serif;
     margin-right: 10px;
 }
 
